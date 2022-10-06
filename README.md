@@ -22,9 +22,9 @@ A dataflow pipeline is a series of components or blocks that can be joined.
 We are going to cover some of them in the examples:
 
 <img src="https://user-images.githubusercontent.com/86239515/194307632-1eb81779-7593-46b5-a873-1d225db5a11d.png" width="500">
-<img src="https://user-images.githubusercontent.com/86239515/194307662-6eb8d4a7-c950-4d7a-aa93-8342fa87d111.png" width="500">
-<img src="https://user-images.githubusercontent.com/86239515/194307647-86e68d8f-ddc8-4b38-87f4-062355a699e8.png" width="500">
-<img src="https://user-images.githubusercontent.com/86239515/194307593-08ed96f4-7fe5-4211-8ea8-9f423ae2d3f5.png" width="500">
+<img src="https://user-images.githubusercontent.com/86239515/194310203-5a997a1b-1c03-4548-9022-ceb4caf6242b.png" width="500">
+<img src="https://user-images.githubusercontent.com/86239515/194307647-86e68d8f-ddc8-4b38-87f4-062355a699e8.png" width="450">
+<img src="https://user-images.githubusercontent.com/86239515/194307593-08ed96f4-7fe5-4211-8ea8-9f423ae2d3f5.png" width="450">
 <img src="https://user-images.githubusercontent.com/86239515/194307575-35903ee4-28b3-4875-9db0-865984842933.png" width="500">
 
 ### Links
