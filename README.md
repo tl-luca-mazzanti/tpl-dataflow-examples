@@ -20,12 +20,6 @@ A dataflow pipeline is a series of components or blocks that can be joined.
 <img src="https://user-images.githubusercontent.com/86239515/194308153-dfd66a99-e9e9-45e5-bc3a-2fb0daf355ab.png" width="350">
 
 We are going to cover some of them in the examples:
-- BufferBlock
-- BroadcastBlock
-- TransformBlock
-- BatchBlock
-- JoinBlock
-- ActionBlock
 
 <img src="https://user-images.githubusercontent.com/86239515/194307632-1eb81779-7593-46b5-a873-1d225db5a11d.png" width="500">
 <img src="https://user-images.githubusercontent.com/86239515/194307662-6eb8d4a7-c950-4d7a-aa93-8342fa87d111.png" width="500">
