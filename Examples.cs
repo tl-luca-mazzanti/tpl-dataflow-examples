@@ -56,9 +56,9 @@ namespace TPLDataflowExamples
         /*
             ACTION BLOCK
             
-                  ┌────────┬──────────────────┐
-            IN ───► buffer │ Action<in>       │
-                  └────────┴──────────────────┘
+                  ┌────────┬──────────────┐
+            IN ───► buffer │  Action<in>  │
+                  └────────┴──────────────┘
                                 1+ tasks
    
             - Has 1+ sources.
@@ -91,10 +91,10 @@ namespace TPLDataflowExamples
         /*
             TRANSFORM BLOCK
             
-                  ┌────────┬──────────────────┐
-            IN ───► buffer │ Function<in,out> ├──► OUT
-                  └────────┴──────────────────┘
-                     size        1+ tasks
+                  ┌────────┬─────────────────┬────────┐
+            IN ───► buffer │ Function<in,out>│ buffer ├──► OUT
+                  └────────┴─────────────────┴────────┘
+                     size        1+ tasks       size
                      
             - Similar to the Action block but has both source and targets.
             - Calls a function when receive data.
@@ -104,7 +104,7 @@ namespace TPLDataflowExamples
         {
             // We can configure a lot of options on each block.
             var opts = new ExecutionDataflowBlockOptions {
-                BoundedCapacity = 10,   
+                BoundedCapacity = 10,
                 // Can process multiple items in parallel.
                 MaxDegreeOfParallelism = 2,
                 // Can output items in the same order or not.
